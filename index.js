@@ -185,7 +185,7 @@ if (g !== h) {
 const i = 4;
 const j = 3;
 
-if (i => j) {
+if (i >= j) {
     console.log('Pomidoras');
 }else {
     console.log('Bandykite dar karta');
