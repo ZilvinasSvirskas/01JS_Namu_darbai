@@ -6,8 +6,8 @@ const asmuo2 = "mokinys2";
 const asmuo3 = "mokinys3";
 const asmuo4 = "mokinys4";
 
-const asmenys = [asmuo1,asmuo2,asmuo3,asmuo4];
-console.log(asmenys);
+const klase = [asmuo1,asmuo2,asmuo3,asmuo4];
+console.log("Klaseje mokosi",klase.length,"asmenys");
 
 
 const mokinys1 = "Gediminas";
@@ -36,8 +36,8 @@ console.log("Pazymiai:",Pazymiai);
 const pazymiuSuma = pazimys1 + pazimys2 + pazimys3 + pazimys4 + pazimys5
 console.log("Pazymiu suma:",pazymiuSuma);
 
-
-console.log("Pazimiu kiekis:", Pazymiai.length)
+const pazymiuKiekis = [pazimys1, pazimys2,pazimys3,pazimys4,pazimys5]
+console.log("Pazimiu kiekis:", pazymiuKiekis.length)
 
 const pazymiuVidurkis = pazymiuSuma/5
 console.log("Pazymiu vidurkis:",pazymiuVidurkis)
