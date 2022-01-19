@@ -87,3 +87,26 @@ const miestuSarasas = ['Vilnius','Kaunas','Klaipeda','Siauliai','Panevezys']
 console.log("Miestu sarasas:",miestuSarasas);
 const dalyviuSarasas = ['Zilvinas','Lina','Marius','Vida','Austeja']
 console.log("Dalyviu saras",dalyviuSarasas)
+
+//Veiksmai su kintamaisiais
+//Susumuoti visus skaičiaus tipo kintamuosius
+//Rezultatą išvesti į console
+
+const pirmasSkaicius = 1
+const antrasSkaicius = 2
+const treciasSkaicius = 3
+
+const suma = pirmasSkaicius + antrasSkaicius + treciasSkaicius
+console.log("Suma", suma)
+
+//Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
+//Rezultatą išvesti į console
+
+// Gitanas Nauseda yra Lietuvos respublikos Prezidentas
+
+const vardas = "Gitanas";
+const pavarde = "Nauseda";
+const saliesVadovas = "Prezidentas";
+
+const sakinys = ( vardas + " " + pavarde + " " + "yra Lietuvos respublikos" + " " + saliesVadovas )
+console.log(sakinys)
