@@ -110,3 +110,22 @@ const saliesVadovas = "Prezidentas";
 
 const sakinys = ( vardas + " " + pavarde + " " + "yra Lietuvos respublikos" + " " + saliesVadovas )
 console.log(sakinys)
+
+//Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
+//1-2+3-4+5
+//Rezultatą išvesti į console
+
+const lygtis1 = sarasas[0] - sarasas[1] + sarasas[2] - sarasas[3] + sarasas[4];
+console.log(lygtis1)
+
+const lygtis2 = pazymiai[0] - pazymiai[1] + pazymiai[2] - pazymiai[3] + pazymiai[4]
+console.log(lygtis2)
+
+const lygtis3 = iverinimai[0] - iverinimai[1] + iverinimai[2] - iverinimai[3] + iverinimai[4]
+console.log(lygtis3)
+
+//Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, 
+//jog tarp jų būtų kablelis ir tarpas
+
+
+
