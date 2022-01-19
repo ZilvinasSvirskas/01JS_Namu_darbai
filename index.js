@@ -18,6 +18,8 @@ const mokinys4 = "Vida";
 const mokiniuvardai = (mokinys1 + "," +mokinys2 +"," + mokinys3 + "," + mokinys4 );
 console.log("Mokiniu vardai:",mokiniuvardai);
 
+console.log("Mini uzduotys")
+
 
 // Pazymiai: 10,2,8,6,4.
 // Pazymiu suma: 30.
