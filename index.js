@@ -128,4 +128,5 @@ console.log(lygtis3)
 //jog tarp jų būtų kablelis ir tarpas
 
 
-
+const prekiusarasas =[prekiuSarasas[4],prekiuSarasas[3],prekiuSarasas[2],prekiuSarasas[1],prekiuSarasas[0]];
+console.log('Prekiu sarasas:',prekiusarasas)
