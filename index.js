@@ -128,5 +128,78 @@ console.log(lygtis3)
 //jog tarp jų būtų kablelis ir tarpas
 
 
-const prekiusarasas =[prekiuSarasas[4],prekiuSarasas[3],prekiuSarasas[2],prekiuSarasas[1],prekiuSarasas[0]];
+const prekiusarasas =[prekiuSarasas[4], prekiuSarasas[3],prekiuSarasas[2],prekiuSarasas[1],prekiuSarasas[0]];
 console.log('Prekiu sarasas:',prekiusarasas)
+
+const miestusarasas =[miestuSarasas[4],miestuSarasas[3],miestuSarasas[2],miestuSarasas[1],miestuSarasas[0]];
+console.log('Miestu sarasas:',miestusarasas)
+
+
+//Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+//kuris didesnis
+
+const a = 10;
+const b = 5;
+
+if (a > b) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris mazesnis
+
+const c = 4;
+const d = 3;
+
+if (c < d) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//ar jie lygus
+
+const e = 4;
+const f = 3;
+
+if (e === f) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//ar jie nelygus
+
+const g = 4;
+const h = 3;
+
+if (g !== h) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris didesnis arba lygus
+
+const i = 4;
+const j = 3;
+
+if (i => j) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris mažesnis arba lygus
+
+const k = 4;
+const l = 3;
+
+if (k <= l) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+
