@@ -202,4 +202,133 @@ if (k <= l) {
     console.log('Bandykite dar karta');
 }
 
+//Išvesti teksto tipo kintamųjų ilgius
 
+const kratinys1 = "Mano vardas Zilvinas";
+const kratinys2 = "Labai malonu su Jumis susipazinti";
+
+kratinioilgis1 = kratinys1.length;
+kratinioilgis2 = kratinys2.length;
+
+console.log(kratinioilgis1,kratinioilgis2);
+
+//Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
+//kuris didesnis
+
+if (kratinioilgis1 > kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris mažesnis
+
+if (kratinioilgis1 < kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//ar jie lygūs
+
+if (kratinioilgis1 == kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//ar jie nelygūs
+
+if (kratinioilgis1 !== kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris didesnis arba lygus
+
+if (kratinioilgis1 >= kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//kuris mažesnis arba lygus
+
+if (kratinioilgis1 <= kratinioilgis2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+
+//Išvesti sąrašo tipo kintamųjų ilgius
+
+const miestai = ['Marijampole','Kaunas','Klaipeda','Alytus','Druskininkai'];
+const automobiliai = ['Volvo', 'Audi', 'BMW', 'Opel'];
+
+listas1 = miestai.length;
+listas2 = automobiliai.length;
+
+console.log('Miestai =',listas1,'Automobiliai =',listas2);
+
+//Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
+//kuris didesnis
+
+if (listas1 > listas2) {
+    console.log('Pomidoras');
+}else {
+    console.log('Bandykite dar karta');
+}
+//kuris mažesnis
+
+if (listas1 < listas2) {
+    console.log('Pomidoras')
+}else {
+    console.log('Bandykite dar karta')
+}
+
+//ar jie lygūs
+
+if (listas1 == listas2) {
+    console.log('Pomidoras')
+}else {
+    console.log('Bandykite dar karta')
+}
+
+//ar jie nelygūs
+
+if (listas1 !== listas2) {
+    console.log('Pomidoras')
+}else {
+    console.log('Bandykite dar karta')
+}
+
+//kuris didesnis arba lygus
+
+if (listas1 >= listas2) {
+    console.log('Pomidoras')
+}else {
+    console.log('Bandykite dar karta')
+}
+
+//kuris mazesnis arba lygu
+
+if (listas1 <= listas2) {
+    console.log('Pomidoras')
+}else {
+    console.log('Bandykite dar karta')
+}
+
+//Ciklo for panaudojimas
+//Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+//0 … 0
+
+const nuo1 = 0;
+const iki1 = 4;
+let suma1 = 0; 
+
+for (let i = nuo1; i <= iki1; i++) {
+
+    suma1 = suma1 + i;
+}
+console.log(`Nuo ${nuo1} iki ${iki1} skaiciu suma yra ${suma1}.`)
