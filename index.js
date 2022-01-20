@@ -344,3 +344,51 @@ for (let i = nuo2; i <= iki2; i++) {
     suma2 = suma2 + i;
 }
 console.log(`Nuo ${nuo2} iki ${iki2} skaiciu suma yra ${suma2}.`)
+
+//0 … 100
+
+const nuo3 = 0;
+const iki3 = 100;
+let suma3 = 0; 
+
+for (let i = nuo3; i <= iki3; i++) {
+
+    suma3 = suma3 + i;
+}
+console.log(`Nuo ${nuo3} iki ${iki3} skaiciu suma yra ${suma3}.`)
+
+//574 … 815
+
+const nuo4 = 574;
+const iki4 = 815;
+let suma4 = 0; 
+
+for (let i = nuo4; i <= iki4; i++) {
+
+    suma4 = suma4 + i;
+}
+console.log(`Nuo ${nuo4} iki ${iki4} skaiciu suma yra ${suma4}.`)
+
+//-50 … 50
+
+const nuo5 = -50;
+const iki5 = 50;
+let suma5 = 0; 
+
+for (let i = nuo5; i <= iki5; i++) {
+
+    suma5 = suma5 + i;
+}
+console.log(`Nuo ${nuo5} iki ${iki5} skaiciu suma yra ${suma5}.`)
+
+//-70 … 30
+
+const nuo6 = -70;
+const iki6 = 30;
+let suma6 = 0; 
+
+for (let i = nuo6; i <= iki6; i++) {
+
+    suma6 = suma6 + i;
+}
+console.log(`Nuo ${nuo6} iki ${iki6} skaiciu suma yra ${suma6}.`)
