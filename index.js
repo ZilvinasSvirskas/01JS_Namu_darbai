@@ -324,7 +324,7 @@ if (listas1 <= listas2) {
 //0 … 0
 
 const nuo1 = 0;
-const iki1 = 4;
+const iki1 = 0;
 let suma1 = 0; 
 
 for (let i = nuo1; i <= iki1; i++) {
@@ -332,3 +332,15 @@ for (let i = nuo1; i <= iki1; i++) {
     suma1 = suma1 + i;
 }
 console.log(`Nuo ${nuo1} iki ${iki1} skaiciu suma yra ${suma1}.`)
+
+//0 … 4
+
+const nuo2 = 0;
+const iki2 = 4;
+let suma2 = 0; 
+
+for (let i = nuo2; i <= iki2; i++) {
+
+    suma2 = suma2 + i;
+}
+console.log(`Nuo ${nuo2} iki ${iki2} skaiciu suma yra ${suma2}.`)
