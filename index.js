@@ -392,3 +392,16 @@ for (let i = nuo6; i <= iki6; i++) {
     suma6 = suma6 + i;
 }
 console.log(`Nuo ${nuo6} iki ${iki6} skaiciu suma yra ${suma6}.`)
+
+//panaudojant ciklą perrašyti tekstinio tipo kintamųjų reikšmes iš kito galo:
+//pvz.: “abcdef” -> “fedcba”
+
+const text = 'abcdef';
+let reversetext = '';
+
+for (let i = 0; i < text.length; i++) {
+    const symbol = text[text.length - 1 - i];
+    console.log(symbol);
+    reversetext = reversetext + symbol;
+}
+console.log(`${text} --> ${reversetext}`)
