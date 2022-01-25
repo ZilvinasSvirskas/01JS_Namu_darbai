@@ -404,4 +404,60 @@ for (let i = 0; i < text.length; i++) {
     console.log(symbol);
     reversetext = reversetext + symbol;
 }
-console.log(`${text} --> ${reversetext}`)
+console.log(`${text} --> ${reversetext}`);
+
+//Funkcija pavadinimu “tusciaFunkcija”:
+//nepriima jokių kintamųjų;
+//neatlieka jokios vidinės logikos
+
+
+function tusciafunkcija () {
+
+}
+
+//gražina boolean tipo reikšmę “false”
+
+function tusciafunkcija () {
+return false;
+}
+console.log(tusciafunkcija ());
+
+//Funkcija pavadinimu “daugyba”:
+//priima du skaičiaus tipo kintamuosius
+
+function daugyba (a, b) {
+
+}
+
+//atskirame kintamajame įsimena sandaugos reikšmę
+
+function daugyba (a, b) {
+const rez = a * b;
+}
+
+//gražina saudaugos rezultatą
+function daugyba (a, b) {
+    const rez = a * b;
+    return rez;
+    }
+
+    //console.log( daugyba( skaicius1, skaicius2 ) );
+
+    caonsole.log(dugyba(10,5))
+
+    //console.log( daugyba( skaicius3, skaicius2 ) );
+
+    console.log( daugyba( 4, 5 ) );
+
+    //console.log( daugyba( skaicius1, skaicius3 ) );
+
+    console.log( daugyba( 10, 4 ) );
+
+    //rezultatas: teisingos reikšmės;
+
+    
+
+    
+    
+
+
